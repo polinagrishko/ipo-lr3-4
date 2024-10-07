@@ -1,10 +1,10 @@
-import math
+import math #математический модуль 
 
-x = float(input("Введите значение x: "))
+x = float(input("Введите значение x: ")) # вывод надписи на консоль
 
-if x < 0:
+if x < 0: # оператор условия if
     f_x = x ** 2
-else:
-    f_x = math.sqrt(x)
+else: #оператор выбора
+    f_x = math.sqrt(x) #
 
-print(f"f({x}) = {f_x}")
+print(f"f({x}) = {f_x}") # вывод числа на консоль
